@@ -12,7 +12,7 @@
 .. |Unit_Test| image:: https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg
 .. _Unit_Test: https://github.com/Abhishekkaddipudi/modelLab
 
-.. |Mail| image:: https://img.shields.io/badge/MailID-lightgrey?style=for-the-badge&logo=Gmail
+.. |Mail| image:: https://img.shields.io/badge/MailID-lightgrey?style=for-the-badge&logo=mail
 .. _Mail: mailto:abhishekkaddipudi123@gmail.com
 
 .. |Linkedin| image:: https://img.shields.io/badge/Linkedin-darkblue?style=for-the-badge&logo=Linkedin
@@ -455,6 +455,6 @@ Examples
 
 Contributor and Author
 ======================
-|Mail|_ |Linkedin|_
+|Mail|_   |Linkedin|_
 
    [**Abhishek Kaddipudi**]

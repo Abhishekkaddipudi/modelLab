@@ -3,7 +3,7 @@ import os
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 Project_Name="modelLab"
-Version="0.3.1"
+Version="0.3.2"
 AUTHOR="Abhishek Kaddipudi"
 DESCRIPTION="A lib for automating model training process of choosing best model that works for you data"
 CLASSIFIERS = [
