@@ -63,7 +63,7 @@
         -   'CatBoostRegressor'
         -   'LGBMRegressor'
      
-
++ Can also be used for the custom models
 ### GETTING STARTED
 This package is available on PyPI, allowing for convenient installation through the PyPI repository.
 
@@ -87,6 +87,131 @@ pip install modelLab
 >>> classifier(X, y, models=models, verbose=False, rets=True)
 ```
 ### Examples
++ Regression Problem
+```python
+>>> from modelLab import regressors
+>>> from sklearn.datasets import fetch_california_housing
+>>> X,y=fetch_california_housing(return_X_y=True)
+>>> regressors(X,y,verbose=True)
+Model: SVR
+Adjusted R^2: -0.0249
+R^2: -0.0229
+MSE: 1.3768
+RMSE: 1.1734
+MAE: 0.8698
+
+Model: RandomForestRegressor
+Adjusted R^2: 0.8034
+R^2: 0.8038
+MSE: 0.2641
+RMSE: 0.5139
+MAE: 0.3364
+
+Model: ExtraTreesRegressor
+Adjusted R^2: 0.8102
+R^2: 0.8105
+MSE: 0.2550
+RMSE: 0.5050
+MAE: 0.3333
+
+Model: AdaBoostRegressor
+Adjusted R^2: 0.4563
+R^2: 0.4574
+MSE: 0.7304
+RMSE: 0.8546
+MAE: 0.7296
+
+Model: NuSVR
+Adjusted R^2: 0.0069
+R^2: 0.0088
+MSE: 1.3342
+RMSE: 1.1551
+MAE: 0.8803
+
+Model: GradientBoostingRegressor
+Adjusted R^2: 0.7753
+R^2: 0.7757
+MSE: 0.3019
+RMSE: 0.5494
+MAE: 0.3789
+
+Model: KNeighborsRegressor
+Adjusted R^2: 0.1435
+R^2: 0.1451
+MSE: 1.1506
+RMSE: 1.0727
+MAE: 0.8183
+
+Model: HuberRegressor
+Adjusted R^2: 0.3702
+R^2: 0.3714
+MSE: 0.8461
+RMSE: 0.9198
+MAE: 0.5800
+
+Model: RidgeCV
+Adjusted R^2: 0.5868
+R^2: 0.5876
+MSE: 0.5551
+RMSE: 0.7450
+MAE: 0.5423
+
+Model: BayesianRidge
+Adjusted R^2: 0.5868
+R^2: 0.5876
+MSE: 0.5551
+RMSE: 0.7451
+MAE: 0.5422
+
+Model: Ridge
+Adjusted R^2: 0.5867
+R^2: 0.5875
+MSE: 0.5552
+RMSE: 0.7451
+MAE: 0.5422
+
+Model: LinearRegression
+Adjusted R^2: 0.5867
+R^2: 0.5875
+MSE: 0.5552
+RMSE: 0.7451
+MAE: 0.5422
+
+Model: LarsCV
+Adjusted R^2: 0.5211
+R^2: 0.5220
+MSE: 0.6433
+RMSE: 0.8021
+MAE: 0.5524
+
+Model: MLPRegressor
+Adjusted R^2: -3.5120
+R^2: -3.5032
+MSE: 6.0613
+RMSE: 2.4620
+MAE: 1.7951
+
+Model: XGBRegressor
+Adjusted R^2: 0.8269
+R^2: 0.8272
+MSE: 0.2326
+RMSE: 0.4822
+MAE: 0.3195
+
+Model: CatBoostRegressor
+Adjusted R^2: 0.8461
+R^2: 0.8464
+MSE: 0.2068
+RMSE: 0.4547
+MAE: 0.3005
+
+Model: LGBMRegressor
+Adjusted R^2: 0.8319
+R^2: 0.8322
+MSE: 0.2259
+RMSE: 0.4753
+MAE: 0.3185
+```
 
 + Classification Problem
   
