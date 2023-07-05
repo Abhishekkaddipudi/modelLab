@@ -87,9 +87,12 @@ FEATURES
       -  'CatBoostRegressor'
       -  'LGBMRegressor'
 
--  Can also be used for the custom models ### GETTING STARTED This
-   package is available on PyPI, allowing for convenient installation
-   through the PyPI repository.
+-  Can also be used for the custom models.
+
+GETTING STARTED 
+===============
+
+This package is available on PyPI, allowing for convenient installation through the PyPI repository.
 
 Dependencies
 ============
