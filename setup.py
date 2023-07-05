@@ -3,11 +3,11 @@ import os
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 Project_Name="modelLab"
-Version="0.1"
+Version="0.2"
 AUTHOR="Abhishek Kaddipudi"
 DESCRIPTION="A lib for automating model training process of choosing best model that works for you data"
 CLASSIFIERS = [
-    'Development Status :: 1 - Planning',
+    'Development Status :: 3 - Alpha',
     'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent',
     'Programming Language :: Python',
@@ -17,9 +17,7 @@ CLASSIFIERS = [
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
-pkg_path=os.path.join('./modelLab')
-subpkg1_path=os.path.join(pkg_path,'Classification')
-subpkg2_path=os.path.join(pkg_path,'Regression')
+
 def read(fname):
     f=open(os.path.join(os.path.dirname(__file__), fname)).read()
     return f
@@ -36,7 +34,7 @@ setup(
                       'catboost',
                       'lightgbm'
                       ],
-
+    keywords=["automl","model","modelbuilder","modelLab"],
     long_description=read("README.rst"),
     author_email = "abhishekkaddipudi007@gmail.com",
     classifiers=CLASSIFIERS,
