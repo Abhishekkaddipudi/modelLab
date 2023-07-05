@@ -29,7 +29,7 @@ setup(
     version=Version,
     author=AUTHOR,
     description=DESCRIPTION,
-
+    url='https://github.com/Abhishekkaddipudi/modelLab',
     packages=find_packages()+find_packages(where="./modelLab/Regression")+find_packages(where="./modelLab/Classification"),
     install_requires=['scikit-learn',
                       'xgboost',
@@ -37,7 +37,7 @@ setup(
                       'lightgbm'
                       ],
 
-    long_description="asasasxas",
+    long_description=read("README.rst"),
     author_email = "abhishekkaddipudi007@gmail.com",
     classifiers=CLASSIFIERS,
 
