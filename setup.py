@@ -1,4 +1,4 @@
-from setuptools import setup,find_namespace_packages
+from setuptools import setup,find_packages
 import os
 
 REQUIREMENT_FILE_NAME="requirements.txt"
@@ -29,12 +29,7 @@ setup(
     author=AUTHOR,
     description=DESCRIPTION,
     license="MIT",
-    packages=['modelLab','modelLab.Classification','modelLab.Regression'],
-    package_dir = {
-        'modelLab':pkg_path,
-        'modelLab.Classification':subpkg1_path,
-        'modelLab.Regression':subpkg2_path,
-                   },
+    packages=find_packages()+find_packages(where="./modelLab/Regression")+find_packages(where="./modelLab/Classification"),
     install_requires=['scikit-learn',
                       'xgboost',
                       'catboost',
