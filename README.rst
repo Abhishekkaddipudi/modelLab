@@ -9,7 +9,7 @@
 .. |PythonVersion| image:: https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue
 .. _PythonVersion: https://pypi.org/project/modelLab/
 
-.. |Version| image:: https://img.shields.io/badge/Version-V0.1-blue
+.. |Version| image:: https://img.shields.io/badge/Version-V0.3.4-blue
 .. _Version: https://github.com/Abhishekkaddipudi/modelLab
 
 .. |Unit_Test| image:: https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg
