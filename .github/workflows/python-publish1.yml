@@ -33,7 +33,7 @@ jobs:
         python setup.py sdist bdist_wheel
     - name: Publish package
       env: 
-        TWINE_USERNAME: 'abhishekkaddipudi123@gmail.com'
-        TWINE_PASSWORD: '007@Bhishek123'
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
       run: |
         twine upload dist/*
