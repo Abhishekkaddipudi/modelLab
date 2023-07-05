@@ -21,21 +21,23 @@ pkg_path=os.path.join('./modelLab')
 subpkg1_path=os.path.join(pkg_path,'Classification')
 subpkg2_path=os.path.join(pkg_path,'Regression')
 def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
+    f=open(os.path.join(os.path.dirname(__file__), fname)).read()
+    return f
 setup(
 
     name=Project_Name,
     version=Version,
     author=AUTHOR,
     description=DESCRIPTION,
-    license="MIT",
+
     packages=find_packages()+find_packages(where="./modelLab/Regression")+find_packages(where="./modelLab/Classification"),
     install_requires=['scikit-learn',
                       'xgboost',
                       'catboost',
                       'lightgbm'
                       ],
-    long_description=read("README.md"),
+
+    long_description="asasasxas",
     author_email = "abhishekkaddipudi007@gmail.com",
     classifiers=CLASSIFIERS,
 
