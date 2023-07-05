@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### modelLab
 modelLab is a comprehensive library of scikit-learn machine learning models designed to facilitate regression or classification tasks on a given dataset. It encompasses a diverse range of models and provides a comprehensive evaluation of each model's performance, delivering a comprehensive set of metrics in a Python dictionary.
 
@@ -56,3 +57,10 @@ The primary objective of the package is to offer a curated ensemble of renowned 
         -   'CatBoostRegressor'
         -   'LGBMRegressor'
             
+=======
+# modelLab
+modelLab is custom python library to implement the number of model on given data and gives the metrics of performance
+
+
+[![Unit Test](https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg)](https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml)
+>>>>>>> 4dd07049893cd0d01eb23bd7f807e7210e704c2e
