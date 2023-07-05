@@ -12,7 +12,6 @@ from sklearn.dummy import DummyClassifier
 
 Cmodels = {
     'LinearSVC': LinearSVC(),
-
     'SGDClassifier': SGDClassifier(),
     'MLPClassifier': MLPClassifier(),
     'Perceptron': Perceptron(),
