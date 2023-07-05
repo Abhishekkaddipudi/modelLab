@@ -1,4 +1,16 @@
-|Unit Test| —
+.. -*- mode: rst -*-
+
+|Version|_ |PythonVersion|_
+
+
+.. |PythonVersion| image:: https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue
+.. _PythonVersion: https://pypi.org/project/modelLab/
+
+.. |Version| image:: https://img.shields.io/badge/Version-V0.1-blue
+.. _Version: https://github.com/Abhishekkaddipudi/modelLab
+
+.. |Unit_Test| image:: https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg
+.. _Unit_Test: https://github.com/Abhishekkaddipudi/modelLab
 
 **modelLab** is a comprehensive library of machine learning models
 designed to facilitate regression or classification tasks on a given
@@ -433,5 +445,3 @@ Examples
    >>> classifier(X, y, models=models, verbose=False, rets=True)
    defaultdict(<class 'dict'>, {'Logistic Regression': {'Accuracy': 0.95, 'Precision': 0.9545454545454545, 'Recall': 0.95, 'F1 Score': 0.949874686716792}})
 
-.. |Unit Test| image:: https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg
-   :target: https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml
