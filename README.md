@@ -1,14 +1,18 @@
-<<<<<<< HEAD
+
 ### modelLab
-modelLab is a comprehensive library of scikit-learn machine learning models designed to facilitate regression or classification tasks on a given dataset. It encompasses a diverse range of models and provides a comprehensive evaluation of each model's performance, delivering a comprehensive set of metrics in a Python dictionary.
+modelLab is a comprehensive library of  machine learning models designed to facilitate regression or classification tasks on a given dataset. It encompasses a diverse range of models and provides a comprehensive evaluation of each model's performance, delivering a comprehensive set of metrics in a Python dictionary.
 
-
+[![Unit Test](https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg)](https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml)
+<a href=""><img src="https://img.shields.io/badge/Version-V0.0.1-blue.svg"/></a>
+<a href=""><img src="https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue.svg"/></a>
 #### PURPOSE OF THE PACKAGE
 The primary objective of the package is to offer a curated ensemble of renowned scikit-learn models, enabling users to conveniently train all models with a single function call.
 
 ### FEATURES
-+Collections of scikit-learn models
-    -   classification 
++ Collections of Machine learning models
+
+    + **Classification Models**                                                          
+    
         -   'LinearSVC'
         -   'SGDClassifier'
         -   'MLPClassifier'
@@ -38,7 +42,9 @@ The primary objective of the package is to offer a curated ensemble of renowned 
         -   'NearestCentroid'
         -   'ExtraTreeClassifier'
         -   'DummyClassifier'
-    -   Regression
+          
+    +  **Regression Models**
+      
         -   'SVR'
         -   'RandomForestRegressor'
         -   'ExtraTreesRegressor'
@@ -56,11 +62,9 @@ The primary objective of the package is to offer a curated ensemble of renowned 
         -   'XGBRegressor'
         -   'CatBoostRegressor'
         -   'LGBMRegressor'
+
             
-=======
-# modelLab
-modelLab is custom python library to implement the number of model on given data and gives the metrics of performance
 
 
-[![Unit Test](https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg)](https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml)
->>>>>>> 4dd07049893cd0d01eb23bd7f807e7210e704c2e
+
+
