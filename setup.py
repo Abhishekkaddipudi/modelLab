@@ -16,10 +16,10 @@ CLASSIFIERS = [
     'Programming Language :: Python :: 3.11',
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
-ROOT_DIR=os.path.dirname(__file__)
-pkg_path=os.path.join(ROOT_DIR,'modelLab')
-subpkg1_path=os.path.join(ROOT_DIR,'modelLab','Classification')
-subpkg2_path=os.path.join(ROOT_DIR,'modelLab','Regression')
+
+pkg_path=os.path.join('./modelLab')
+subpkg1_path=os.path.join(pkg_path,'Classification')
+subpkg2_path=os.path.join(pkg_path,'Regression')
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 setup(
