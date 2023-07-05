@@ -12,13 +12,11 @@
 .. |Unit_Test| image:: https://github.com/Abhishekkaddipudi/modelLab/actions/workflows/main.yml/badge.svg
 .. _Unit_Test: https://github.com/Abhishekkaddipudi/modelLab
 
-.. |Mail| image:: https://img.shields.io/badge/MailID-lightgrey?style=for-the-badge&logo=mail
 .. _Mail: mailto:abhishekkaddipudi123@gmail.com
 
-.. |Linkedin| image:: https://img.shields.io/badge/Linkedin-darkblue?style=for-the-badge&logo=Linkedin
 .. _Linkedin: https://www.linkedin.com/in/abhishek-kaddipudi-0b5183253/
 
-
+.. _GitHub : https://github.com/Abhishekkaddipudi
 **modelLab** is a comprehensive library of machine learning models
 designed to facilitate regression or classification tasks on a given
 dataset. It encompasses a diverse range of models and provides a
@@ -455,6 +453,10 @@ Examples
 
 Contributor and Author
 ======================
-|Mail|_   |Linkedin|_
-
    [**Abhishek Kaddipudi**]
+
+   `Mail`_ 
+   
+   `Linkedin`_
+
+   `GitHub`_
