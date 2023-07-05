@@ -2,6 +2,9 @@
 
 |Version|_ |PythonVersion|_
 
+.. _Linkedin: https://www.linkedin.com/in/abhishek-kaddipudi-0b5183253
+.. _GitHub : https://github.com/Abhishekkaddipudi
+
 
 .. |PythonVersion| image:: https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue
 .. _PythonVersion: https://pypi.org/project/modelLab/
@@ -14,9 +17,6 @@
 
 .. _Mail: mailto:abhishekkaddipudi123@gmail.com
 
-.. _Linkedin: https://www.linkedin.com/in/abhishek-kaddipudi-0b5183253/
-
-.. _GitHub : https://github.com/Abhishekkaddipudi
 **modelLab** is a comprehensive library of machine learning models
 designed to facilitate regression or classification tasks on a given
 dataset. It encompasses a diverse range of models and provides a
